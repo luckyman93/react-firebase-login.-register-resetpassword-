@@ -17,7 +17,7 @@ export default function Home() {
         if (!authToken) {
             navigate('/register')
         }
-    }, [])
+    }, [navigate])
     return (
         <div>
             Home Page
